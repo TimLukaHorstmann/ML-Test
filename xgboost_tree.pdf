@@ -1,0 +1,11 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="CDP_Released_Volume<0.5" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    0 -> 1 [label="yes, missing" color="#0000FF"]
+    0 -> 2 [label="no" color="#FF0000"]
+
+    1 [ label="leaf=1029.94653" fillcolor="#e48038" shape="box" style="filled" ]
+
+    2 [ label="leaf=-0.106718376" fillcolor="#e48038" shape="box" style="filled" ]
+}
